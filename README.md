@@ -21,36 +21,11 @@ A beautiful Flutter application that displays random user profiles in an interac
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](screenshots/home_screen.png)
-
-### Profile Detail Screen
-![Profile Detail](screenshots/profile_detail.png)
-
-### Liked Profiles
-![Liked Profiles](screenshots/liked_profiles.png)
-
-## Project Architecture
-
-The app follows **Clean Architecture** with proper separation of concerns:
-
-```
-lib/
-├── main.dart                          # App entry point
-├── models/
-│   └── user_profile.dart             # Data model
-├── data/
-│   └── services/
-│       └── api_service.dart          # API integration
-└── presentation/
-    ├── providers/
-    │   └── profile_provider.dart     # State management (Provider)
-    ├── screens/
-    │   ├── home_screen.dart          # Home page
-    │   └── profile_detail_screen.dart # Detail page
-    └── widgets/
-        └── profile_card.dart         # Reusable card component
-```
+<div align="center">
+  <img src="screenshots/home_screen.png" width="280" alt="Home Screen">
+  <img src="screenshots/profile_detail.png" width="280" alt="Profile Detail">
+  <img src="screenshots/liked_profiles.png" width="280" alt="Liked Profiles">
+</div>
 
 ## Tech Stack
 
@@ -211,11 +186,6 @@ Feel free to fork, modify, and submit pull requests!
 ## License
 
 This project is open source and available under the MIT License.
-
-## Author
-
-**Adesh Chaudhary**
-- GitHub: [@adeshpatel700-rgb](https://github.com/adeshpatel700-rgb)
 
 ## Acknowledgments
 
